@@ -150,7 +150,7 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .fourCol_Grid .grid-col figure .imgwrap::before{content: '';position: absolute;top: 0;width: 100%;height: 12px;   background: linear-gradient(270deg,#e1ad00 0,#504b4e 100%);opacity: .84;}
 .fourCol_Grid .grid-col figcaption h3{font-weight: 700;font-size: 16px;line-height: 19px;}
 .post_time{font-weight: 400;font-size: 11px;line-height: 13px;position: relative;display: flex;align-items: center;margin:5px 0;}
-.post_time::before{content: "\25AA";color: #000;font-size: 16px;font-weight: 700;display: inline-block;margin-right:2px;}
+.post_time::before{content: "\25AA";color: #000;font-size: 14px;font-weight: 700;display: inline-block;margin-right:2px;}
 .main_footer{background: #19232d;clear: both;padding:15px 0;color:#b6b7b9;font-weight: 500;font-size: 13px;    line-height: 16px;}
 .main_footer a{color:#b6b7b9;}
 .main_footer .container{display: flex;justify-content: space-between;align-items: center;}
