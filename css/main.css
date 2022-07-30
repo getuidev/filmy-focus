@@ -157,6 +157,8 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .main_footer .footer_links ul li{padding-left:0.5em;display: inline-block;}
 .main_footer .footer_links ul li::before{content: "\b7";padding-right: 0.5em;display: inline-block;}
 .main_footer .footer_links ul li:first-child::before{content:'';}
+.scrolltop{width:35px;height:35px;position:fixed;bottom:40px;right:160px;display:none;background-color:#e1ad00;z-index:99;text-align:center;cursor:pointer}
+.scrolltop:after{border-bottom-style:solid;border-bottom-width:2px;border-right-style:solid;border-right-width:2px;content:"";display:inline-block;height:12px;width:12px;border-color:#fff;-moz-transform:rotate(225deg);-ms-transform:rotate(225deg);-webkit-transform:rotate(225deg);transform:rotate(225deg);margin-top:14px}
 @media(max-width:767px){
 .adsCont{min-height:270px}
 .gutterLHS,.gutterRHS{display:none}
@@ -201,4 +203,5 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .topNews_Carousel .swiper-pagination{display: none;}
 .topNavBar .TopLMenu{display: flex;align-items: center;}
 .language_switcher ul{z-index: 1;}
+.scrolltop{right:20px;}
 }

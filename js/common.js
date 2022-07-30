@@ -51,10 +51,11 @@ $(document).ready(function () {
 document.addEventListener('scroll', function () {
     var scrollTop = window.scrollY;
     var toggleClass = document.getElementsByTagName("body")[0];
-
-    if (scrollTop >= 100) {
-        toggleClass.classList.add('sticky');
-    } else {
-        toggleClass.classList.remove('sticky');
+    if ($(window).width() >= 1000) {
+        if (scrollTop >= 100) {
+            toggleClass.classList.add('sticky');
+        } else {
+            toggleClass.classList.remove('sticky');
+        }
     }
 });
