@@ -28,7 +28,7 @@ $(document).ready(function () {
     });
     if ($(window).width() >= 1000) {
         $(window).scroll(function () {
-            var sticky = $('.navbarLinks');
+            var sticky = $('.topNavBar');
                 scroll = $(window).scrollTop();
             if (scroll >= 113) {
                 sticky.addClass('sticky-header');
